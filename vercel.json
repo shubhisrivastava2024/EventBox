@@ -7,7 +7,9 @@
     },
     "frontend": {
       "root": "frontend",
-      "framework": "vite"
+      "framework": "vite",
+      "installCommand": "npm install --ignore-scripts=false",
+      "buildCommand": "chmod +x ./node_modules/.bin/vite && npm run build"
     }
   },
   "rewrites": [
