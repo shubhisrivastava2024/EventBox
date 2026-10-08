@@ -7,9 +7,7 @@
     },
     "frontend": {
       "root": "frontend",
-      "framework": "vite",
-      "installCommand": "npm install --unsafe-perm",
-      "buildCommand": "npx vite build"
+      "framework": "vite"
     }
   },
   "rewrites": [
